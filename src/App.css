@@ -1,0 +1,44 @@
+.contmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.contmain .heading{
+    margin-top: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+    width: 100%;
+    padding:0rem 2rem  2rem;
+    
+    
+}
+
+@media (max-width : 768px) {
+    .contmain{
+        height: 100%;
+    }
+
+    .contmain .heading{
+        font-size: 4rem;
+    }
+    .cont{
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0;
+    }
+}
