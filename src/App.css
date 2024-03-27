@@ -4,7 +4,6 @@
     background-color: black;
     height: 100vh;
     color: white;
-    
 }
 
 .contmain .heading{
@@ -22,22 +21,17 @@
     justify-content: center;
     gap: 2rem;
     padding:0rem 2rem  2rem;
-   
-    
-    
 }
 
 @media (max-width : 768px) {
     .contmain{
         height: 100%;
     }
-
     .contmain .heading{
         font-size: 4rem;
     }
     .cont{
         flex-direction: column;
-        
         padding: 0 0 2rem;
     }
 }
